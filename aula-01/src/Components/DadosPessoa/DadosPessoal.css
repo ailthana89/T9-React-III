@@ -1,0 +1,12 @@
+import React from 'react'
+
+const DadosPessoa = (props) => {
+    return (
+        <div>
+            <div>{props.usuario.nome} </div>
+            <div>{props.usuario.hobbie} </div>
+        </div>
+    )
+}
+
+export default DadosPessoa;
