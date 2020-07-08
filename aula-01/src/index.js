@@ -1,5 +1,6 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
+<<<<<<< HEAD
 import * as serviceWorker from './serviceWorker';
 import FotoPessoa from 
 
@@ -70,6 +71,14 @@ ReactDOM.render(
     <FotoPessoa 
       foto
     />
+=======
+import App from './App'
+import * as serviceWorker from './serviceWorker';
+
+ReactDOM.render(
+  <React.StrictMode>
+    <App />
+>>>>>>> ef4ff94a429e5bbdb8cc23a2e70dbc4c6db0b3d6
   </React.StrictMode>,
   document.getElementById('root')
 );
@@ -77,4 +86,8 @@ ReactDOM.render(
 // If you want your app to work offline and load faster, you can change
 // unregister() to register() below. Note this comes with some pitfalls.
 // Learn more about service workers: https://bit.ly/CRA-PWA
+<<<<<<< HEAD
 serviceWorker.unregister();
+=======
+serviceWorker.unregister();
+>>>>>>> ef4ff94a429e5bbdb8cc23a2e70dbc4c6db0b3d6
