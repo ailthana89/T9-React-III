@@ -1,0 +1,69 @@
+.list-biography{
+    max-width: 700px;
+    margin: 20px auto 0px;
+    padding: 0 20px;
+}
+
+.list-biography article {
+    background: #fff;
+    border:2px solid #ddd;
+    border-radius: 5px;
+    padding: 20px;
+    margin-bottom: 15px;
+}
+
+.biography-description {
+    font-size: 16px;
+    color: #928A92;
+    margin-top: 10px;
+    line-height: 24px;
+}
+
+.list-biography article a{
+    height: 40px;
+    border-radius: 10px;
+    border: 2px solid #20B2AA;
+    color: #20B2AA;
+    font-size: 16px;
+    font-weight: bold;
+    display: flex;
+    margin-top: 10px;
+    justify-content:  center;
+    align-items: center;
+  }
+
+.list-biography article a:hover {
+    background: #20B2AA;
+    color:#fff;
+}
+
+.list-biography .actions {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 50px;
+}
+
+.list-biography .actions button {
+    background: #20B2AA;
+    color: #fff;
+    padding: 10px;
+    margin-bottom: 40px;
+    border: 0;
+    border-radius: 5px;
+    font-size: 14px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: all 0.3s;
+
+}
+
+.list-biography .actions button:hover{
+    opacity: 0.7;
+}
+
+.list-biography .actions button[disabled]{
+    opacity: 0.5;
+    cursor: default;
+}
+  
+
